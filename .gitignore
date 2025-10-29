@@ -1,1 +1,8 @@
+plaintext
+# 忽略Java构建目录
 target/
+
+# 忽略日志目录
+logs/
+# 也可以忽略单独的日志文件
+*.log

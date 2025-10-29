@@ -60,3 +60,6 @@ java.net.BindException: Address already in use: bind
 2025-10-29 16:42:52.038 [vert.x-eventloop-thread-0] INFO  com.gameserver.GameServerVerticle - 新玩家连接: 53b024c4-1dc0-482d-b57f-7a1df092ea64, 当前在线人数: 1
 2025-10-29 16:54:22.619 [vert.x-eventloop-thread-0] INFO  com.gameserver.GameServerVerticle - 玩家 53b024c4-1dc0-482d-b57f-7a1df092ea64 超时，断开连接
 2025-10-29 16:54:22.620 [vert.x-eventloop-thread-0] INFO  com.gameserver.GameServerVerticle - 玩家断开连接: 53b024c4-1dc0-482d-b57f-7a1df092ea64, 当前在线人数: 0
+2025-10-29 17:35:29.558 [vert.x-eventloop-thread-1] INFO  com.gameserver.Main - 游戏服务器启动成功，部署ID: 996002ec-3cc8-4f07-9b50-9c47d98ec377
+2025-10-29 17:35:29.562 [vert.x-eventloop-thread-0] INFO  com.gameserver.GameServerVerticle - 游戏服务器已启动，监听端口: 9090
+2025-10-29 17:35:29.576 [vert.x-eventloop-thread-0] INFO  com.gameserver.GameServerVerticle - HTTP API服务已启动，监听端口: 9091

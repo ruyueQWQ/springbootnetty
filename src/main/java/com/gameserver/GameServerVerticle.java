@@ -203,7 +203,7 @@ public class GameServerVerticle extends AbstractVerticle {
         // 启动HTTP服务器
         vertx.createHttpServer().requestHandler(router).listen(9091, res -> {
             if (res.succeeded()) {
-                logger.info("HTTP API服务已启动，监听端口: 8081");
+                logger.info("HTTP API服务已启动，监听端口: 9091");
             } else {
                 logger.error("HTTP API服务启动失败", res.cause());
             }
