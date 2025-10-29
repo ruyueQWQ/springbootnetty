@@ -1,0 +1,5 @@
+com\gameserver\client\GameClient.class
+com\gameserver\GameServerVerticle.class
+com\gameserver\Main.class
+com\gameserver\MessageHandler.class
+com\gameserver\Player.class
